@@ -28,9 +28,7 @@ Example input:
 
 ```
 {
-  "api_key": {
-    "secretKey": “381cd93b-1946-9c73-1946-c916075eb9a3"
-  }
+  "api_key": "{\"secretKey\": \"381cd93b-1946-9c73-1946-c916075eb9a3\"}"
 }
 ```
 
@@ -49,7 +47,7 @@ This action is used to search urlscan.io.
 |offset|integer|0|True|Offset of first result (for paginating)|None|1|
 |q|string|domain:example.com|True|The query term (ElasticSearch simple query string), default is *|None|domain:example.com|
 |size|integer|100|True|Number of results returned|None|45|
-|sort|string|_score|True|Sorting, specified via $sort_field:$sort_order|None|_score|
+|sort|string|_score|True|Sorting, specificied via $sort_field:$sort_order|None|_score|
 
 Example input:
 
